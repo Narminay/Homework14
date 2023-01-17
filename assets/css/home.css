@@ -1,0 +1,51 @@
+header {
+  background-color: black;
+}
+header div {
+  height: 63px !important;
+}
+header div .row {
+  height: 100%;
+}
+header div .row .col-5 .logo a {
+  text-decoration: none;
+  color: white;
+  font-size: 28px;
+}
+header div .row nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header div .row nav li a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+  transition: 0.3s;
+}
+header div .row nav li a:hover {
+  color: rgba(0, 0, 0, 0.207);
+}
+
+#present {
+  background-color: black;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  height: 442px;
+}
+#present div {
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+#present div div {
+  justify-content: center;
+}
+#present div div .about {
+  text-align: center;
+}
+#present div div .about h1 {
+  color: white;
+}
+#present div div .about p {
+  color: gray;
+}/*# sourceMappingURL=home.css.map */
